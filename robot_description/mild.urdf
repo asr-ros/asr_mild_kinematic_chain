@@ -3,7 +3,7 @@
   <link name="base_link">
     <visual>
             <geometry>
-                <mesh filename="package://kinematic_chain_mild/robot_description/mild.dae"/>
+                <mesh filename="package://asr_mild_kinematic_chain/robot_description/mild.dae"/>
             </geometry>
             <origin xyz="-0.03 -0.03 0" rpy="0 0 -1.57"/>
         </visual>
@@ -17,7 +17,7 @@
   <link name="ptu_mount_link" >
   <visual>
         <geometry>
-                <mesh filename="package://kinematic_chain_mild/robot_description/camera.dae"/>
+                <mesh filename="package://asr_mild_kinematic_chain/robot_description/camera.dae"/>
         </geometry>
 	<origin xyz="0 0.01 0.005" rpy="-1.5708 0 -1.5708"/>
       </visual>
